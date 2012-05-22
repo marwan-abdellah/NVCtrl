@@ -16,8 +16,8 @@ ADD_LIBRARY(XNVCtrl SHARED NVCtrl.c)
 TARGET_LINK_LIBRARIES(XNVCtrl)
 
 install(TARGETS XNVCtrl LIBRARY DESTINATION lib)
-install(FILES NVCtrl.h DESTINATION include)
-install(FILES NVCtrlLib.h DESTINATION include)
+install(FILES NVCtrl.h DESTINATION include/NVCtrl)
+install(FILES NVCtrlLib.h DESTINATION include/NVCtrl)
 
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/CMake)
 
