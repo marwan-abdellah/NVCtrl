@@ -28,4 +28,3 @@ install(FILES NVCtrlLib.h DESTINATION ${CMAKE_BINARY_DIR}/include/NVCtrl)
 # Packaging
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/CMake) 
 include(CPackConfig)
-
